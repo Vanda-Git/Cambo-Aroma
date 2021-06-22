@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Koulen-Regular;
+    src: url(Koulen-Regular.ttf);
+  }
+
+.about_us_text{
+    font-family: Koulen-Regular;
+    color:rgb(27, 25, 25) !important;
+}
