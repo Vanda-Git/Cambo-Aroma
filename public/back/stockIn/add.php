@@ -101,6 +101,13 @@
                                             <button type="button" class="btn btn-success" name="btn_add " onclick="add_row()"><i class="fa fa-plus"></i></button >
                                         </div>
                                     </div>
+                                    <!-- <div class="col-sm-3">
+                                        <div class="form-group">
+                                            <label> Upload (.xlsx)</label>
+                                            <input type="file" name="txt_excel_file" id="txt_excel">
+                                            <button type="button" onclick="read_data()">Show</button>
+                                        </div>
+                                    </div> -->
                                 </div>
                                     <table class="table table-bordered table-hover main_table table-striped ">
                                         <tr class="text-center">
@@ -131,7 +138,7 @@
                                                 </select>
                                             </td>
                                             <td>
-                                                <input type="number" class="form-control" name="txt_qty[]">
+                                                <input type="number" class="form-control" id="txt_excel" name="txt_qty[]">
                                             </td>
                                             <td class="text-center">
                                                 <button type="button" class="btn btn-sm btn-danger" title="Remove" onclick="remove_row(this)"><i class="fa fa-trash"></i></button>

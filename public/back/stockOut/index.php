@@ -19,7 +19,7 @@
     <section class="content">
       <div class="container-fluid">
       <br/>
-      <a href="add.php" class="btn btn-primary"> <i class="fa fa-plus"></i> New Record Stock In</a>
+      <a href="add.php" class="btn btn-primary"> <i class="fa fa-plus"></i> New Record Stock Out</a>
       <hr/>
       <table id="example1" class="table table-bordered table-striped dataTable dtr-inline" role="grid" aria-describedby="example1_info">
         <thead>
