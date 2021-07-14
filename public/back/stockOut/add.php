@@ -99,6 +99,7 @@ if (isset($_POST["btn_save"])) {
                                     <tr class="text-center">
                                         <th>Nº</th>
                                         <th>Product</th>
+                                        <th>Image</th>
                                         <th>Is Box</th>
                                         <th>QTY</th>
                                         <th>Unit Price</th>
@@ -127,6 +128,9 @@ if (isset($_POST["btn_save"])) {
                                                 ?>
                                             </select>
                                             <font color="blue" class="message_pice_per_box"></font>
+                                        </td>
+                                        <td>
+                                            <img src="" width="80px" class="img_product" alt="">
                                         </td>
                                         <td>
                                             <input type="checkbox" onclick="isbox(this)" name="chk_isbox" class="chk_isbox">
@@ -237,6 +241,7 @@ if (isset($_POST["btn_save"])) {
                 $(e).parents('tr').find(".txt_unit_price").val(obj[0].pr_price);
                 $(e).parents('tr').find(".txt_pice_per_box").val(obj[0].pice_per_box);
                 $(e).parents('tr').find(".message_pice_per_box").html(obj[0].pice_per_box + " pc per box");
+                $(e).parents('tr').find(".img_product").attr("src","../Asset/images/product/"+obj[0].pr_image);
 
                 gen_subtotal(e);
                 grand_total();

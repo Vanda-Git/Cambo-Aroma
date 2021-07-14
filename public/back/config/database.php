@@ -3,6 +3,10 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $database = "aroma";
+$servername = "sql310.epizy.com";
+$username = "epiz_26878973";
+$password = "WGW4a8FiWDXE";
+$database = "epiz_26878973_aroma";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password,$database);
